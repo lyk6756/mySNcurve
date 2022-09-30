@@ -1,0 +1,11 @@
+#ifndef MYSNCURVE_TEST_MATERIAL_TEST_FATIGUEMATERIALSN_GENERALTEST_H_
+#define MYSNCURVE_TEST_MATERIAL_TEST_FATIGUEMATERIALSN_GENERALTEST_H_
+
+#include "gtest/gtest.h"
+#include "fatigueMaterialSN.h"
+
+ class fatigueMaterialSN_GeneralTest: public testing::Test {
+
+};
+
+#endif //MYSNCURVE_TEST_MATERIAL_TEST_FATIGUEMATERIALSN_GENERALTEST_H_

@@ -8,4 +8,4 @@ link_directories(${GTEST_ROOT}/lib)
 
 file(GLOB_RECURSE TEST_SRCS *.cpp)
 add_executable(${PROJECT_NAME} ${TEST_SRCS})
-target_link_libraries(${PROJECT_NAME} PUBLIC pthread gtest fatigueMaterialSN)
+target_link_libraries(${PROJECT_NAME} PUBLIC pthread gtest fatigueMaterial)

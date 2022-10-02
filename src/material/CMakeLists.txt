@@ -1,3 +1,3 @@
-add_library(fatigueMaterialSN STATIC
-        fatigueMaterialSN.cpp)
-target_include_directories(fatigueMaterialSN PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+add_library(fatigueMaterial STATIC
+        standardSN.cpp)
+target_include_directories(fatigueMaterial PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

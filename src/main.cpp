@@ -1,5 +1,5 @@
 #include <iostream>
-#include "fatigueMaterialSN.h"
+#include "standardSN.h"
 
 int main() {
   std::cout << "hello world" << std::endl;
